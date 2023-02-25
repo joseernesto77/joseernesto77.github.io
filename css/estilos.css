@@ -1,0 +1,56 @@
+Body {Background-color : #e7c1d9;}
+
+#princip {
+    text-align: center;
+}
+
+h1 {
+    font-family: Lobster-Regular; /*Mi h1 con fuente bajada por mi*/
+    font-size: xxx-large;
+}
+
+h2 {
+    font-family: Zeyada-Regular; /*Mi h2 con fuente bajada por mi*/
+    font-size: xx-large;
+}
+
+#cajas {
+    margin: 20px;
+    border: 30px solid pink;
+    padding: 30px;
+    background-color: rgb(240, 159, 173);
+}
+
+#firma {
+    text-align: center;
+    font-style: italic;
+}
+
+/*Mi contenedor para los iconos de Fb e Insta*/
+.contenedor {
+    max-width: 120px;
+    height: 7vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    color: pink;
+    font-size: 20px;
+    transition: .3s ease all;
+}
+
+/*Chiche que encontre para dar efecto a los iconos, me parecio interesante usarlo*/
+.button1:hover {
+    background: pink;
+    color:blue;
+}
